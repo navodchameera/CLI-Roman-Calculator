@@ -193,7 +193,7 @@ def mul(txtNum1,txtNum2):
         print("0 < Roman Numerals < 4000\n")
 
 def div(txtNum1,txtNum2):
-    numAnswer = int(romanToNum(txtNum1)) / int(romanToNum(txtNum2))
+    numAnswer = round(int(romanToNum(txtNum1)) / int(romanToNum(txtNum2)))
 
     if numAnswer < 4000:
         txtAnswer = numToRoman(numAnswer)
